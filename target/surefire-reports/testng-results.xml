@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-09-06T14:30:08Z" name="TestCaseApplicationTests" finished-at="2020-09-06T14:30:12Z" duration-ms="3957">
+    <groups>
+    </groups>
+    <test started-at="2020-09-06T14:30:08Z" name="Command line test" finished-at="2020-09-06T14:30:12Z" duration-ms="3957">
+      <class name="TestCaseApplicationTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:TestCaseApplicationTests@23e028a9]" started-at="2020-09-06T17:30:08Z" name="setUp" finished-at="2020-09-06T17:30:08Z" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="givenMovieName_checkExists_thenGetImbdID_thenCorrect()[pri:0, instance:TestCaseApplicationTests@23e028a9]" started-at="2020-09-06T17:30:08Z" name="givenMovieName_checkExists_thenGetImbdID_thenCorrect" finished-at="2020-09-06T17:30:12Z" duration-ms="3483" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- givenMovieName_checkExists_thenGetImbdID_thenCorrect -->
+        <test-method signature="givenImdbId_thenCheckResponse_thenCorrect()[pri:0, instance:TestCaseApplicationTests@23e028a9]" started-at="2020-09-06T17:30:12Z" name="givenImdbId_thenCheckResponse_thenCorrect" finished-at="2020-09-06T17:30:12Z" depends-on-methods="TestCaseApplicationTests.givenMovieName_checkExists_thenGetImbdID_thenCorrect" duration-ms="448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- givenImdbId_thenCheckResponse_thenCorrect -->
+        <test-method is-config="true" signature="close()[pri:0, instance:TestCaseApplicationTests@23e028a9]" started-at="2020-09-06T17:30:12Z" name="close" finished-at="2020-09-06T17:30:12Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- TestCaseApplicationTests -->
+    </test> <!-- Command line test -->
+  </suite> <!-- TestCaseApplicationTests -->
+</testng-results>
